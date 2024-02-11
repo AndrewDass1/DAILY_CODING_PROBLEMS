@@ -1,9 +1,9 @@
-# Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+# Directions
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A". <br>
+<br>
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
-# Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
-
-# print(number_and_string_count[0:len(number_and_string_count)-2])
-
+```
 def successive_character_length(string_of_letters):
     number_counter = 0
     number_and_string_count = ""
@@ -41,3 +41,4 @@ def successive_character_length(string_of_letters):
 
 # Test the function
 successive_character_length("AAABCCD")
+```
